@@ -8,7 +8,7 @@ $(OUT_DIR): $(SOURCES)
 	javac -Xlint -d $(OUT_DIR) $(SOURCES)
 
 run: $(OUT_DIR)
-	java -cp $(OUT_DIR) main.Main
+	java -cp $(OUT_DIR) app.App
 
 clean:
 	$(RM) -r $(OUT_DIR)

@@ -8,6 +8,7 @@
     devShells.${system}.default = pkgs.mkShell {
       packages = with pkgs; [
         openjdk_headless
+        jdt-language-server
       ];
     };
   };
